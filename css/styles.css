@@ -1,3 +1,20 @@
+body {
+  background-image: linear-gradient(to left bottom, #89a9d9, #77aec5, #84aead, #98a9a0, #a4a5a2);
+}
+
 #letter {
   display: none;
+}
+
+#stamp {
+  /* width:10%; */
+}
+
+img {
+  width: 100px;
+  float: right;
+}
+#letter-content {
+  padding: 5%;
+  margin: 
 }

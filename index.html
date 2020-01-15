@@ -12,21 +12,27 @@
    <form id="nameEntry">
      <div class="form-group">
        <label for="name">Enter your name here:</label>
-       <input type="text" id="name">
+       <input type="text" id="name" class="form-control">
      </div>
-     <button type="button" class=" btn btn-info">Submit</button>
+     <button type="submit" class=" btn btn-info">Submit</button>
    </form>
 
    <div class="well" id="letter">
-     <p id="opening">Dear <span id="userName"></span></p>
 
-     <div class="well">
-        <img src="" alt="stamp">
-     </div>
+    <div class="row" id="letter-content">
+
+      <p id="opening" class="col-md-6">Dear <span id="userName"></span></p>
+      <div class=" col-md-6" id="stamp">
+        <img src="img/img.jpeg" alt="stamp">
+      </div>
+
+    </div>
+  
      
      <p id="body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias nam libero. Ut aperiam laborum nisi dicta, doloremque, vitae rem maiores dolorum officia fugiat totam sed iure, deserunt excepturi vero.</p>
 
      <p id="closing">Always, Me</p>
+    </div>
   </div>
 
 </body>
